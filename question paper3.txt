@@ -1,0 +1,155 @@
+
+# coding: utf-8
+
+# In[1]:
+
+'''
+NOTE: Every program should follow exception handling.
+'''
+
+
+# In[2]:
+
+#1. WAP to check given number is prime or not?
+
+
+# In[3]:
+
+#2. WAP to take sentence and word from the user and remove the given word from the sentence
+
+
+# In[4]:
+
+#3. WAP to ADD two lists l1=[1,2], l2=[3,4] result=[4,6] 
+
+
+# In[5]:
+
+#4. What is list comprehensions, give an example
+
+
+# In[6]:
+
+#5. What is map, give an example?
+
+
+# In[7]:
+
+#6. What is the generator, what are the ways to create it?
+
+
+# In[8]:
+
+#7. What is zip? Give an example?
+
+
+# In[9]:
+
+#8. What are the different ways to update the existing dictionary?
+
+
+# In[10]:
+
+#9. When do you use tuple? when do you use list to reffer the multiple values?
+
+
+# In[11]:
+
+#10. What are * args? Give an example
+
+
+# In[12]:
+
+#11. What are **kwargs? give an example
+
+
+# In[13]:
+
+#12.what are keyword arguments? Give an example
+
+
+# In[ ]:
+
+#13. Does the below code executes?
+def fun(a=10,b):
+    return a+b
+
+
+# In[ ]:
+
+#14.Does the below code executes
+def fun(*args,**kwargs,b,c):
+    print b,c
+
+
+# In[14]:
+
+#15. What is a class? write an example program to demonstrate class.
+
+
+# In[15]:
+
+#16. What is databinding? write an example program to demonstrate databinding.
+
+
+# In[16]:
+
+#17. What is an inheritance? write an example program to demonstrate inheritance.
+
+
+# In[17]:
+
+#18. What is method overriding? write an example program to demonstrate method overirding.
+
+
+# In[18]:
+
+#19. What is method over loading? write an example program to demonstrate method overloading.
+
+
+# In[19]:
+
+#20. What is operator overoloading? write an example program to provide + operator support to two instances of particular class.
+
+
+# In[20]:
+
+#21 override the __add__ method of predefined list class.
+
+
+# In[21]:
+
+#22 call parent create method in child class method create. reffer the below code.
+class c1:
+    def create(self):
+        print "create method"
+class c2(c1):
+    def create(self):
+        print "child class create method definition"
+        # how to call parent class create method here?
+
+
+# In[ ]:
+
+#23 what is the ouput of the below code
+class c1:
+    def create(*a):
+        print a
+o1=c1()
+o1.create(10,20)
+
+
+# In[22]:
+
+#24. Whats happen when create an instance of a class in background?
+
+
+# In[23]:
+
+#25. WAP to provide database table data to the out side world using socket programing. Use modular approach (10 Marks).
+
+
+# In[ ]:
+
+#26. WAP to connect remote system and get the currently running processes (2 Marks)
+
