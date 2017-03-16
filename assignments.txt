@@ -203,6 +203,8 @@ create an instance of person class and call the create method.
 	c. p3 = person(id=4,pan=”brcp3456”,sal=23,age=45)	
 make instance iterable and provide the operation sp1+p2, p1-p2. Give your own definition for the operations
 
+84. program to check the list is the sub list of another list or not
+
 
  
  
