@@ -1,0 +1,12 @@
+INFO:root:program started
+INFO:root:a=12
+INFO:root:b=6
+DEBUG:root:result=2
+INFO:root:other statments in program
+INFO:root:program ended
+2017-04-17 10:13:28,134->INFO->program started
+2017-04-17 10:13:30,525->INFO->a=12
+2017-04-17 10:13:30,525->INFO->b=6
+2017-04-17 10:13:30,525->DEBUG->result=2
+2017-04-17 10:13:30,525->INFO->other statments in program
+2017-04-17 10:13:30,526->INFO->program ended
