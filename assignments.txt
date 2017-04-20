@@ -118,7 +118,6 @@ Menu:
 70. Write a class(DB) program to create a table, insert values, update values, delete values of the table. 
 All database operations code write in a file(db_operations.py) and call these operations in another file( app.py).
 In app.py create instance of the DB class and call all the methods by passing some data.
-Note: if you don’t have knowledge on db operations then write for file operations.
 
 71. write a program to do registration.
      Write a methods in a class DB to open database connection and insert details in to database table. 
@@ -149,4 +148,5 @@ make instance iterable and provide the operation sp1+p2, p1-p2. Give your own de
 83. find out intersection, union, difference of two list without/with using set
 84. WAP to create, modify, delete, browse lun in xtremeio array using xtremeio api.
 85. WAP to create, modify, delete, browse lun in any array using paramiko module.
+86. WAP to collect all directors from vplex and reboot one director from that using VATS Frame work
  
