@@ -1,0 +1,16 @@
+from math import sqrt
+def pearson(x,y):
+    x_sum=float(sum(x))
+    y_sum=float(sum(y))
+    x_sq_sum=sum([ n*n for n in x ])
+    y_sq_sum=sum([ m*m for m in y ])
+    sum_XY=sum([a*b for a,b in zip(x,y)])
+    n=len(x)
+    numerator = sum_XY - ((x_sum * y_sum)/n)
+    denominator = sqrt((x_sq_sum - (x_sum*x_sum) / n) * (y_sq_sum - (y_sum*y_sum)/n))
+    if denominator == 0:
+        return 0
+    return numerator/denominator
+print pearson([1,3,4,4],[2,5,5,8])
+    
+    
